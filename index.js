@@ -53,7 +53,7 @@ function placeOrder(cardNumber) {
     return ('Sorry, we don\'t have a credit card on file for you.')
   }
   cart = []
-  //var total = total()
+  var total = total()
   //console.log (`Your total cost is ${total}`)
 }
 
