@@ -52,6 +52,8 @@ function placeOrder(cardNumber) {
   if (cardNumber == null) {
     return ('Sorry, we don\'t have a credit card on file for you.')
   }
+  cart = []
+  console.log (`Your total cost is ${total()}`)
 }
 
 
@@ -62,4 +64,4 @@ addToCart('apples')
 
 viewCart();
 total();
-placeOrder();
+placeOrder(5555);
