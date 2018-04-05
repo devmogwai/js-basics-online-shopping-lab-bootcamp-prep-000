@@ -62,4 +62,4 @@ addToCart('apples')
 
 viewCart();
 total();
-placeOrder();
+placeOrder(1);
