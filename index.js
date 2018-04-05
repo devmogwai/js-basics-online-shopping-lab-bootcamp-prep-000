@@ -49,7 +49,7 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  if (cardNumber === '') {
+  if (cardNumber === 1) {
     console.log ('Sorry, we don\'t have a credit card on file for you')
   }
 }
@@ -62,4 +62,4 @@ addToCart('apples')
 
 viewCart();
 total();
-placeOrder();
+placeOrder(1);
