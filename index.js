@@ -53,7 +53,7 @@ function placeOrder(cardNumber) {
     return ('Sorry, we don\'t have a credit card on file for you.')
   }
   var orderTotal = total()
-  console.log (`Your total cost is ${orderTotal} which will be charged to the card ${cardNumber}.`)
+  console.log (`Your total cost is $${orderTotal} which will be charged to the card ${cardNumber}.`)
 }
 
 
