@@ -54,7 +54,7 @@ function placeOrder(cardNumber) {
   }
   cart = []
   var orderTotal = total()
-  //console.log (`Your total cost is ${total}`)
+  console.log (`Your total cost is ${orderTotal}`)
 }
 
 
