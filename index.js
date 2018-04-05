@@ -63,5 +63,5 @@ addToCart('juice')
 addToCart('apples')
 
 viewCart();
-total();
+console.log (total());
 placeOrder(5555);
